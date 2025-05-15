@@ -5,28 +5,8 @@ function MoviesList() {
   const [moviesData, setMoviesData] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [inputValue, setInputValue] = useState("");
-
-
-  const [currentPage, setCurrentPage] = useState(currentData);
-  const maxPage = Math.ceil(moviesData.length / 5);
-
-  const handlePrev = () => {
-    setCurrentPage((prev) => Math.max(prev - 1, 1));
-  };
-
-  const handleNext = () => {
-    setCurrentPage((prev) => Math.min(prev + 1, maxPage));
-  };
-
-  const startIndex = (currentPage - 1) * 5;
-  const endIndex = startIndex + 5;
-  const currentData = moviesData.slice(startIndex, endIndex);
-
-
- 
-  
-
-  console.log(currentPage)
+  const [currentPage, setCurrentPage] = useState(1);
+  const moviesPerPage = 5;
 
   useEffect(() => {
     const fetchMovies = async () => {
@@ -51,10 +31,25 @@ function MoviesList() {
     }
   };
 
- 
   const filteredMovies = moviesData.filter((movie) =>
     movie.title.toLowerCase().includes(inputValue.toLowerCase())
   );
+
+  // Pagination calculate
+  const indexOfLastMovie = currentPage * moviesPerPage;
+  const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
+  const currentMovies = filteredMovies.slice(indexOfFirstMovie, indexOfLastMovie);
+  const totalPages = Math.ceil(filteredMovies.length / moviesPerPage);
+
+  const handlePrev = () => {
+    if (currentPage > 1) setCurrentPage(currentPage - 1);
+  };
+
+  const handleNext = () => {
+    if (currentPage < totalPages) setCurrentPage(currentPage + 1);
+  };
+
+  const handlePageClick = (page) => setCurrentPage(page);
 
   return (
     <>
@@ -64,7 +59,10 @@ function MoviesList() {
           placeholder="Search Movie By Title"
           className="form-control"
           value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
+          onChange={(e) => {
+            setInputValue(e.target.value);
+            setCurrentPage(1); // first page 
+          }}
         />
       </div>
 
@@ -78,10 +76,10 @@ function MoviesList() {
           </tr>
         </thead>
         <tbody>
-          {filteredMovies.length > 0 ? (
-            filteredMovies.map((item, index) => (
+          {currentMovies.length > 0 ? (
+            currentMovies.map((item, index) => (
               <tr key={item._id}>
-                <td>{index + 1}</td>
+                <td>{indexOfFirstMovie + index + 1}</td>
                 <td>{item.title}</td>
                 <td>{item.year}</td>
                 <td>
@@ -100,6 +98,34 @@ function MoviesList() {
           )}
         </tbody>
       </table>
+
+       {/* //page controllers */}
+      {totalPages > 1 && (
+        <nav>
+          <ul className="pagination justify-content-center">
+            <li className={`page-item ${currentPage === 1 ? "disabled" : ""}`}>
+              <button className="page-link" onClick={handlePrev}>
+                Previous
+              </button>
+            </li>
+            {[...Array(totalPages)].map((_, i) => (
+              <li
+                key={i}
+                className={`page-item ${currentPage === i + 1 ? "active" : ""}`}
+              >
+                <button className="page-link" onClick={() => handlePageClick(i + 1)}>
+                  {i + 1}
+                </button>
+              </li>
+            ))}
+            <li className={`page-item ${currentPage === totalPages ? "disabled" : ""}`}>
+              <button className="page-link" onClick={handleNext}>
+                Next
+              </button>
+            </li>
+          </ul>
+        </nav>
+      )}
 
       {/* Modal */}
       <div
@@ -144,17 +170,6 @@ function MoviesList() {
           </div>
         </div>
       </div>
-
-      <hr />
-        <button onClick={handlePrev} disabled={currentPage === 1}>
-        Previous
-      </button>
-      <span>{`Page ${currentPage} of ${maxPage}`}</span>
-      <button onClick={handleNext} disabled={currentPage === maxPage}>
-        Next
-      </button>
-
-   
     </>
   );
 }

@@ -1,0 +1,266 @@
+{
+    "sucess": true,
+    "data": [
+        {
+            "_id": "6825bc648011117c17912a23",
+            "title": "The Laugh Factory",
+            "year": "2022",
+            "description": "A hilarious journey through the world's weirdest comedy club.",
+            "genre": "Comedy",
+            "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hollywoodreporter.com%2Fnews%2Fgeneral-news%2Flaugh-factory-hollywood-comedy-show-benefit-los-angeles-fire-foundation-1236106845%2F&psig=AOvVaw3EXIZcYJawB9JpaJSRFcQK&ust=1747389900199000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKixruWcpY0DFQAAAAAdAAAAABAE",
+            "createdAt": "2025-05-15T10:05:24.079Z",
+            "updatedAt": "2025-05-15T10:05:24.079Z",
+            "__v": 0
+        },
+        {
+            "_id": "6825bcbf8011117c17912a25",
+            "title": "Tears of Time",
+            "year": "2020",
+            "description": "A powerful drama that explores the complexities of love and loss.",
+            "genre": "Drama",
+            "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbr.com%2Ftears-of-the-kingdom-ocarina-of-time-hero-armor-guide-zelda%2F&psig=AOvVaw2oDJlBcCqqg8K8_JrrFP8J&ust=1747389992695000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiV0ZSdpY0DFQAAAAAdAAAAABAE",
+            "createdAt": "2025-05-15T10:06:55.674Z",
+            "updatedAt": "2025-05-15T10:06:55.674Z",
+            "__v": 0
+        },
+        {
+            "_id": "6825bcd18011117c17912a27",
+            "title": "Mystic Realms",
+            "year": "2021",
+            "description": "A fantasy adventure in a world where dragons and humans must unite.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/mystic-realms.jpg",
+            "createdAt": "2025-05-15T10:07:13.549Z",
+            "updatedAt": "2025-05-15T10:07:13.549Z",
+            "__v": 0
+        },
+        {
+            "_id": "6825bce38011117c17912a29",
+            "title": "Funny Bones",
+            "year": "2023",
+            "description": "A stand-up comedian finds humor in the chaos of everyday life.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/funny-bones.jpg",
+            "createdAt": "2025-05-15T10:07:31.296Z",
+            "updatedAt": "2025-05-15T10:07:31.296Z",
+            "__v": 0
+        },
+        {
+            "_id": "6825bcf48011117c17912a2b",
+            "title": "Shadowed Hearts",
+            "year": "2021",
+            "description": "Two broken souls cross paths in a world that tries to tear them apart.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/shadowed-hearts.jpg",
+            "createdAt": "2025-05-15T10:07:48.549Z",
+            "updatedAt": "2025-05-15T10:07:48.549Z",
+            "__v": 0
+        },
+        {
+            "_id": "6825bd018011117c17912a2d",
+            "title": "Elven Saga",
+            "year": "2019",
+            "description": "An elven warrior must stop a prophecy from destroying her realm.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/elven-saga.jpg",
+            "createdAt": "2025-05-15T10:08:01.206Z",
+            "updatedAt": "2025-05-15T10:08:01.206Z",
+            "__v": 0
+        },
+        {
+            "_id": "6825bd188011117c17912a2f",
+            "title": "Joke’s On You",
+            "year": "2020",
+            "description": "A prank show host gets pranked back in the most epic way.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/jokes-on-you.jpg",
+            "createdAt": "2025-05-15T10:08:24.718Z",
+            "updatedAt": "2025-05-15T10:08:24.718Z",
+            "__v": 0
+        },
+        {
+            "_id": "6825be814731c578a82710bc",
+            "title": "Unspoken Truths",
+            "year": "2022",
+            "description": "A courtroom drama that reveals shocking secrets.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/unspoken-truths.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710bd",
+            "title": "Dragonspire",
+            "year": "2023",
+            "description": "A quest to the top of the magical Dragonspire mountain.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/dragonspire.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710be",
+            "title": "Comedy Nights",
+            "year": "2021",
+            "description": "A group of friends try to save their favorite comedy club.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/comedy-nights.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710bf",
+            "title": "Behind the Curtains",
+            "year": "2020",
+            "description": "A drama set in the lives of backstage theater performers.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/behind-curtains.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c0",
+            "title": "Wizards of the Deep",
+            "year": "2022",
+            "description": "A fantasy tale under the sea with ancient ocean magic.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/wizards-deep.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c1",
+            "title": "Stand Up War",
+            "year": "2018",
+            "description": "Two comedians face off in a televised roast battle.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/stand-up-war.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c2",
+            "title": "Broken Strings",
+            "year": "2021",
+            "description": "A violinist struggles with past trauma to find her rhythm again.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/broken-strings.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c3",
+            "title": "The Forgotten Crown",
+            "year": "2020",
+            "description": "A royal fantasy with secrets, swords, and sorcery.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/forgotten-crown.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c4",
+            "title": "Giggle Storm",
+            "year": "2023",
+            "description": "A viral video leads to unexpected comedy stardom.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/giggle-storm.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c5",
+            "title": "Fading Light",
+            "year": "2019",
+            "description": "A moving story about friendship and terminal illness.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/fading-light.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c6",
+            "title": "Chronicles of Fire",
+            "year": "2021",
+            "description": "An epic fantasy of rebellion and fire magic.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/chronicles-fire.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c7",
+            "title": "Laughing Matters",
+            "year": "2022",
+            "description": "A documentary-style comedy with a heartwarming twist.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/laughing-matters.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c8",
+            "title": "The Silent Room",
+            "year": "2023",
+            "description": "A haunting drama of solitude and healing.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/silent-room.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710c9",
+            "title": "Frost and Flame",
+            "year": "2020",
+            "description": "A fantasy about rival elemental kingdoms.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/frost-flame.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710ca",
+            "title": "The Roast League",
+            "year": "2019",
+            "description": "Comedians compete in the ultimate roast showdown.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/roast-league.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710cb",
+            "title": "Shattered Promises",
+            "year": "2021",
+            "description": "A family is torn apart by betrayal and hidden truths.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/shattered-promises.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710cc",
+            "title": "The Enchanted Grove",
+            "year": "2022",
+            "description": "A magical forest hides an ancient treasure.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/enchanted-grove.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710cd",
+            "title": "LOL Marathon",
+            "year": "2023",
+            "description": "Comedians take on a 24-hour live laughathon for charity.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/lol-marathon.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710ce",
+            "title": "Echoes of Yesterday",
+            "year": "2020",
+            "description": "A poignant drama about memories and letting go.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/echoes-yesterday.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710cf",
+            "title": "The Phoenix Blade",
+            "year": "2019",
+            "description": "A fantasy warrior seeks redemption in a cursed land.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/phoenix-blade.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710d0",
+            "title": "Clown Town",
+            "year": "2021",
+            "description": "A wacky comedy where clowns rule a small town.",
+            "genre": "Comedy",
+            "poster": "https://example.com/posters/clown-town.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710d1",
+            "title": "Crossroads",
+            "year": "2022",
+            "description": "A drama where four strangers meet and change each other’s lives.",
+            "genre": "Drama",
+            "poster": "https://example.com/posters/crossroads.jpg"
+        },
+        {
+            "_id": "6825be814731c578a82710d2",
+            "title": "Moonlight Oracle",
+            "year": "2023",
+            "description": "A fantasy epic about a seer who dreams the future.",
+            "genre": "Fantasy",
+            "poster": "https://example.com/posters/moonlight-oracle.jpg"
+        }
+    ]
+}
