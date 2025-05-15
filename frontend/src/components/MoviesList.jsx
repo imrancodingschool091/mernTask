@@ -31,9 +31,9 @@ function MoviesList() {
     }
   };
 
-  const filteredMovies = moviesData.filter((movie) =>
-    movie.title.toLowerCase().includes(inputValue.toLowerCase())
-  );
+ const filteredMovies = moviesData.filter((movie) =>
+  movie.title?.toLowerCase().includes(inputValue.toLowerCase())
+);
 
   // Pagination calculate
   const indexOfLastMovie = currentPage * moviesPerPage;
@@ -99,7 +99,7 @@ function MoviesList() {
         </tbody>
       </table>
 
-       {/* //page controllers */}
+      
       {totalPages > 1 && (
         <nav>
           <ul className="pagination justify-content-center">
